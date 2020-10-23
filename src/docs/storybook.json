@@ -8,6 +8,11 @@
         "doc": "energy.md"
       },
       {
+        "path": "/resistance",
+        "title": "Сопротивление урону",
+        "doc": "resistance.md"
+      },
+      {
         "path": "/shields",
         "title": "Щиты",
         "doc": "doc.md"
@@ -19,7 +24,7 @@
     "links": [
       {
         "path": "/ass",
-        "title": "Артифакты",
+        "title": "Артефакты",
         "doc": "doc.md"
       }
     ]

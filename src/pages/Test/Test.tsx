@@ -4,6 +4,8 @@ import styles from './Test.module.scss';
 import doc from '../../docs/doc.md';
 import gfm from 'remark-gfm';
 
+const base = process.env.PUBLIC_URL === '/genshin_docs';
+
 const renderers = {
   image: (props: any) => {
     return(

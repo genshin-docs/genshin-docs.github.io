@@ -3,19 +3,30 @@
   flex-direction: row;
   width: 100%;
 
-  .body{
-    width: 100%;
-  }
-
   .empty{
     height: 0;
   }
 
-  .grid{
-    width: 100%;
+  $sidebar-width: 275px;
+
+  .sideMenu{
+    overflow-y: hidden;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: $sidebar-width;
+    width: $sidebar-width;
   }
 
   .content{
-    padding: 20px 30px;
+    overflow-y: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: $sidebar-width;
+
+    padding: 20px 30px 50px 30px;
   }
 }
