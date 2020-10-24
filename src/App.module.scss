@@ -1,32 +1,113 @@
 .page{
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-
-  .empty{
-    height: 0;
-  }
-
-  $sidebar-width: 275px;
+  $sidebar-width: 250px;
 
   .sideMenu{
-    overflow-y: hidden;
     position: absolute;
     top: 0;
     bottom: 0;
     left: 0;
-    right: $sidebar-width;
     width: $sidebar-width;
+    z-index: 10;
+
+    transition: margin-left 0.5s linear;
   }
 
-  .content{
+  .contentWrapper{
     overflow-y: auto;
     position: absolute;
     top: 0;
     bottom: 0;
-    right: 0;
+    width: calc(100% - #{$sidebar-width});
     left: $sidebar-width;
 
-    padding: 20px 30px 50px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    transition: margin-left 0.5s linear;
+
+    .content{
+      box-sizing: border-box;
+      padding: 20px 20px 50px 20px;
+    }
+
+    .header{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+
+      padding: 10px 10px 0 10px;
+      box-sizing: border-box;
+
+      $icon-size: 25px;
+
+      .menuIcon{
+        width: $icon-size;
+        height: $icon-size;
+      }
+
+      .title{
+        font-weight: bold;
+        margin-left: -$icon-size;
+      }
+    }
+  }
+}
+
+// something bigger
+@media only screen and (min-width: 1920px) {
+  .page .content{
+    width: 800px;
+  }
+}
+
+// desktops
+@media only screen and (max-width: 1920px) {
+  .page .content{
+    width: 800px;
+  }
+}
+
+// laptops
+@media only screen and (max-width: 1124px) {
+  .page .content{
+    width: 100%;
+    max-width: 600px;
+  }
+}
+
+// tablets
+@media only screen and (max-width: 768px) {
+  .content{
+    width: 100%;
+    padding-top: 0 !important;
+  }
+
+  .contentWrapper{
+    left: 0 !important;
+    width: 100% !important;
+  }
+
+  .sideMenu{
+    left: -250px !important;
+  }
+}
+
+// mobile phones
+@media only screen and (max-width: 480px) {
+  .content{
+    width: 100%;
+    padding-top: 0 !important;
+  }
+
+  .contentWrapper{
+    left: 0 !important;
+    width: 100% !important;
+  }
+
+  .sideMenu{
+    left: -250px !important;
   }
 }

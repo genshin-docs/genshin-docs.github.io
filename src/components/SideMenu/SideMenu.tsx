@@ -11,8 +11,10 @@ const SideMenu = () => {
   return(
     <div className={styles.wrapper}>
       <div className={styles.logo}>
-        Genshin Docs
+        <img src='/images/logo2.png' />
+        <div className={styles.title}>Genshin Docs</div>
       </div>
+
       {
         storybook.map(group =>
           <ul className={styles.group}>
