@@ -12,7 +12,7 @@ import { useMediaQuery } from 'react-responsive';
 const App = () => {
 
   const [menuOpened, setMenuOpened] = useState(false);
-  const isMobile = useMediaQuery({ query: '(max-device-width: 768px)' })
+  const isMobile = useMediaQuery({ query: '(max-width: 768px)' })
 
   return(
     <Router basename={process.env.PUBLIC_URL}>
