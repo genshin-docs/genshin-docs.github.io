@@ -1,2 +1,0 @@
-(this.webpackJsonpgenshin_docs=this.webpackJsonpgenshin_docs||[]).push([[0],{65:function(s){s.exports=JSON.parse('{"extends":"../src/tsconfig.app.json","compilerOptions":{"types":["node"]},"exclude":["../src/test.ts","../src/**/*.spec.ts","../projects/**/*.spec.ts"],"include":["../src/**/*","../projects/**/*"],"files":["./typings.d.ts"]}')}}]);
-//# sourceMappingURL=0.d55d1432.chunk.js.map
