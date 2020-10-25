@@ -6,16 +6,6 @@
         "path": "/energy",
         "title": "Энергия",
         "doc": "energy.md"
-      },
-      {
-        "path": "/resistance",
-        "title": "Сопротивление урону",
-        "doc": "resistance.md"
-      },
-      {
-        "path": "/shields",
-        "title": "Щиты",
-        "doc": "doc.md"
       }
     ]
   },
@@ -23,9 +13,9 @@
     "title": "Игровые данные",
     "links": [
       {
-        "path": "/ass",
-        "title": "Артефакты",
-        "doc": "doc.md"
+        "path": "/reset_timers",
+        "title": "Таймеры респавнов",
+        "doc": "reset_timers.md"
       }
     ]
   }
