@@ -1,0 +1,1 @@
+Вся предовставленная информация является переводами постов из различных источников: форума михойо, реддита и [этого замечательного документа](https://docs.google.com/spreadsheets/d/1s0G2SDIOp9WB7NRn3ABoRgsS_Qjid46g1-BswFrbTFY/htmlview?usp=sharing&pru=AAABdQDyEKI*ZXKSdQgdxmtubI0uHPhnqA#)
