@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "994cd3dba00de2c1e3e178259abf1d8a",
+    "revision": "902003418f929aa6fb73b695412ce68b",
     "url": "/index.html"
   },
   {
-    "revision": "ef2cc77b429276e2d210",
+    "revision": "522430eb94931b8de0f2",
     "url": "/static/css/main.9ec55165.chunk.css"
   },
   {
@@ -28,12 +28,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/5.d83a468c.chunk.js"
   },
   {
-    "revision": "f83fa238c138a39e2692",
-    "url": "/static/js/6.386473b7.chunk.js"
+    "revision": "b291aa8bfa3291db87b2",
+    "url": "/static/js/6.4dfb4ff6.chunk.js"
   },
   {
-    "revision": "13f88b3304fdea9d9099",
-    "url": "/static/js/7.8aad7b66.chunk.js"
+    "revision": "91fd9134ee13b2c26bbe",
+    "url": "/static/js/7.ed071c0d.chunk.js"
   },
   {
     "revision": "6d99f72de4fce8e1d573",
@@ -44,12 +44,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/9.268024f3.chunk.js"
   },
   {
-    "revision": "ef2cc77b429276e2d210",
-    "url": "/static/js/main.8d325157.chunk.js"
+    "revision": "522430eb94931b8de0f2",
+    "url": "/static/js/main.a310ea71.chunk.js"
   },
   {
-    "revision": "9844da354403e52d0437",
-    "url": "/static/js/runtime-main.1e70c22b.js"
+    "revision": "0096177283e4f46f4f65",
+    "url": "/static/js/runtime-main.c21ddb32.js"
   },
   {
     "revision": "0e29b0300d447384238298a36a3c6f9e",
@@ -60,16 +60,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/doc.0ca68735.md"
   },
   {
-    "revision": "c6b662c37721f0b5c49bb9dee1a7d63d",
-    "url": "/static/media/energy.c6b662c3.md"
+    "revision": "6d2c5c7e221970707d3db4a06ec10747",
+    "url": "/static/media/energy.6d2c5c7e.md"
   },
   {
     "revision": "0c04532e0d4bd8ffaec20a95b2209cf1",
     "url": "/static/media/menu.0c04532e.svg"
   },
   {
-    "revision": "8b90e3dff755dbb9afc55d70d7524d5a",
-    "url": "/static/media/reset_timers.8b90e3df.md"
+    "revision": "a7506e38c545151b37abab40622fc4b1",
+    "url": "/static/media/reset_timers.a7506e38.md"
   },
   {
     "revision": "0ca68735261b9d1c1dab112187747ee8",
