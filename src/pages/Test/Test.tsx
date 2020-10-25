@@ -10,7 +10,7 @@ const renderers = {
   image: (props: any) => {
     return(
       <div className={styles.imageWrapper}>
-        <img alt='Where is description?' src={props.src} />
+        <img alt='Where is description?' src={props.src.split('public')[1]} />
         <div className={styles.imageDescription}>{ props.alt }</div>
       </div>
     );

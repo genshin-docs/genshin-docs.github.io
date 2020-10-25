@@ -2,9 +2,9 @@
 
 ## Ресурсы
 
-|![](/images/resources/iron_chunk.png)| 24 часа | ![](/images/resources/white_iron.png)| 48 часов |
+|![](/public/images/resources/iron_chunk.png)| 24 часа | ![](/public/images/resources/white_iron.png)| 48 часов |
 |--|--|--|--|
-![](/images/resources/jade.png) ![](/images/resources/cor_lapis.png)| 48-72 часов | ![](/images/resources/crystal.png)| 72 часа |
+![](/public/images/resources/jade.png) ![](/public/images/resources/cor_lapis.png)| 48-72 часов | ![](/public/images/resources/crystal.png)| 72 часа |
 
 
 Растения предназначенные для повышения персонажей песпавнятся через **48 часов**.
