@@ -1,1 +1,0 @@
-![](/images/resources/iron_chunk.png)

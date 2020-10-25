@@ -30,7 +30,7 @@ const Test = ({ page } : Props) => {
 
   return(
     <div className={styles.wrapper}>
-      <ReactMarkdown renderers={renderers} plugins={[gfm]}>{ text }</ReactMarkdown>
+      <ReactMarkdown allowDangerousHtml={true} renderers={renderers} plugins={[gfm]}>{ text }</ReactMarkdown>
     </div>
   )
 };

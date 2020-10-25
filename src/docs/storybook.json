@@ -6,6 +6,11 @@
         "path": "/energy",
         "title": "Энергия",
         "doc": "energy.md"
+      },
+      {
+        "path": "/defense",
+        "title": "Защита",
+        "doc": "defense.md"
       }
     ]
   },
