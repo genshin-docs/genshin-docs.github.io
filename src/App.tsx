@@ -19,7 +19,7 @@ const App = () => {
       <div className={styles.page}>
 
         <div style={{ marginLeft: menuOpened ? 250 : 0 }} className={styles.sideMenu}>
-          <SideMenu />
+          <SideMenu setMenuOpened={setMenuOpened} />
         </div>
 
         <div style={{ marginLeft: menuOpened ? 250 : 0 }} className={styles.contentWrapper}>

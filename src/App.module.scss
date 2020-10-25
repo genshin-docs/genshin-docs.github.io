@@ -9,7 +9,7 @@
     width: $sidebar-width;
     z-index: 10;
 
-    transition: margin-left 0.5s linear;
+    transition: margin-left 0.3s linear;
   }
 
   .contentWrapper{
@@ -24,7 +24,7 @@
     flex-direction: column;
     align-items: center;
 
-    transition: margin-left 0.5s linear;
+    transition: margin-left 0.3s linear;
 
     .content{
       box-sizing: border-box;
